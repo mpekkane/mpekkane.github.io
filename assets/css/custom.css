@@ -35,6 +35,10 @@ b {
     font-weight: bold;
 }
 
+.avatar{
+    border-radius: 15%;
+}
+
 /*
 colors
 FEC361 yellow
