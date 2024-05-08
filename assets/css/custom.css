@@ -6,9 +6,11 @@ a {
 .blogimg {
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .pubimg {
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
