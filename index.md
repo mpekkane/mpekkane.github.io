@@ -2,16 +2,16 @@
 layout: default
 ---
 
-@import "{{ site.theme }}";
-
 [More about me.](/about.md)
 
 # Do visual language maps capture latent semantics?
 
-Download the paper:
-<a href="https://arxiv.org/abs/2403.10117">
-  <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
-</a>
+<div style="text-align:center;">
+    Download the paper:
+    <a href="https://arxiv.org/abs/2403.10117">
+    <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
+    </a>
+</div>
 
 ![img-paper3](images/qualitative-red-gt.png)
 
@@ -19,10 +19,12 @@ Visual-language models (VLMs) have recently been introduced in robotic mapping b
 
 # Object-oriented grid mapping in dynamic environments
 
-Download the paper:
-<a href="https://arxiv.org/abs/2309.08324">
-  <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
-</a>
+<div style="text-align:center;">
+    Download the paper:
+    <a href="https://arxiv.org/abs/2309.08324">
+    <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
+    </a>
+</div>
 
 <img src="images/illustration-draft.png" alt="paper2 img" class="center">
 
@@ -34,10 +36,12 @@ We propose a method to estimate the latent variables by clustering based on sema
 
 # Localization under consistent assumptions over dynamics
 
-Download the paper:
-<a href="https://arxiv.org/abs/2305.16702">
-  <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
-</a>
+<div style="text-align:center;">
+    Download the paper:
+    <a href="https://arxiv.org/abs/2305.16702">
+    <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
+    </a>
+</div>
 
 ![img-paper1](images/header.png)
 
