@@ -6,7 +6,7 @@ layout: default
 
 # Do visual language maps capture latent semantics?
 
-[arXiv](https://arxiv.org/abs/2403.10117).
+[![arXiv](images/arxiv-logo.png)](https://arxiv.org/abs/2403.10117).
 
 ![img-paper3](images/qualitative-red-gt.png)
 
