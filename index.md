@@ -6,7 +6,7 @@ layout: default
 
 # Do visual language maps capture latent semantics?
 
-[ArXiv](https://arxiv.org/abs/2403.10117).
+[arXiv](https://arxiv.org/abs/2403.10117).
 
 ![img-paper3](images/qualitative-red-gt.png)
 
@@ -14,7 +14,7 @@ Visual-language models (VLMs) have recently been introduced in robotic mapping b
 
 # Object-oriented grid mapping in dynamic environments
 
-[ArXiv](https://arxiv.org/abs/2309.08324).
+[arXiv](https://arxiv.org/abs/2309.08324).
 
 ![img-paper2](images/illustration-draft.png)
 
@@ -24,7 +24,7 @@ We propose a method to estimate the latent variables by clustering based on sema
 
 # Localization under consistent assumptions over dynamics
 
-[ArXiv](https://arxiv.org/abs/2305.16702).
+[arXiv](https://arxiv.org/abs/2305.16702).
 
 ![img-paper1](images/header.png)
 
