@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Do visual language maps capture latent semantics?
 
 [ArXiv](https://arxiv.org/abs/2403.10117).
