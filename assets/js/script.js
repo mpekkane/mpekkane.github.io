@@ -160,19 +160,19 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // page navigation variables
 const blogNavigationLinks = document.querySelectorAll("[blog-nav-link]");
-const sections = document.querySelectorAll("[nav-target]");
+//const sections = document.querySelectorAll("[nav-target]");
 
 // add event to all nav link
-for (let i = 0; i < navigationLinks.length; i++) {
-    navigationLinks[i].addEventListener("click", function () {
+for (let i = 0; i < blogNavigationLinks.length; i++) {
+    blogNavigationLinks[i].addEventListener("click", function () {
 
         for (let i = 0; i < pages.length; i++) {
-            if (this.innerHTML.toLowerCase() === sections[i].dataset.page) {
-                sections[i].classList.add("active");
+            if (this.getAttribute('nav-target') === pages[i].dataset.page) {
+                pages[i].classList.add("active");
                 navigationLinks[i].classList.add("active");
                 window.scrollTo(0, 0);
             } else {
-                sections[i].classList.remove("active");
+                pages[i].classList.remove("active");
                 navigationLinks[i].classList.remove("active");
             }
         }

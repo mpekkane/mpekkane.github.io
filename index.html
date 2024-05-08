@@ -10,13 +10,13 @@
     <!--
     - favicon
   -->
-    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 
     <!--
     - custom css link
   -->
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    <link rel="stylesheet" href="./assets/css/custom.css">
     <!--
     - google font link
   -->
@@ -159,6 +159,10 @@
                     </li>
 
                     <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Blog</button>
+                    </li>
+
+                    <li class="navbar-item">
                         <button class="navbar-link" data-nav-link>About</button>
                     </li>
 
@@ -190,10 +194,10 @@
 
         <section class="blog-posts">
             <ul class="blog-posts-list">
-                <li class="blog-post-item">
-                    <a href="#">
+                <li class="blog-post-item" blog-nav-link nav-target="blog">
+                    <a href="#icra2024">
                         <figure class="blog-banner-box">
-                            <img src="./assets/images/ICRA_2024.jpg" alt="Design conferences in 2022" loading="lazy">
+                            <img src="./assets/images/ICRA_2024.jpg" alt="ICRA2024" loading="lazy">
                         </figure>
 
                         <div class="blog-content">
@@ -212,10 +216,10 @@
                     </a>
                 </li>
 
-                <li class="blog-post-item" blog-nav-link>
+                <li class="blog-post-item" blog-nav-link nav-target="publications">
                     <a href="#paper3">
                         <figure class="blog-banner-box">
-                            <img src="./assets/images/qualitative-red-gt-small.png" alt="Design conferences in 2022" loading="lazy">
+                            <img src="./assets/images/qualitative-red-gt-small.png" alt="paper3" loading="lazy">
                         </figure>
 
                         <div class="blog-content">
@@ -234,10 +238,10 @@
                     </a>
                 </li>
 
-                <li class="blog-post-item">
-                    <a href="#paper3">
+                <li class="blog-post-item" blog-nav-link nav-target="publications">
+                    <a href="#paper2">
                         <figure class="blog-banner-box">
-                            <img src="./assets/images/illustration-draft.png" alt="Design conferences in 2022" loading="lazy">
+                            <img src="./assets/images/illustration-draft.png" alt="paper2" loading="lazy">
                         </figure>
 
                         <div class="blog-content">
@@ -256,10 +260,10 @@
                     </a>
                 </li>
 
-                <li class="blog-post-item">
-                    <a href="#paper3">
+                <li class="blog-post-item" blog-nav-link nav-target="publications">
+                    <a href="#paper1">
                         <figure class="blog-banner-box">
-                            <img src="./assets/images/header.png" alt="Design conferences in 2022" loading="lazy">
+                            <img src="./assets/images/header.png" alt="paper1" loading="lazy">
                         </figure>
 
                         <div class="blog-content">
@@ -301,11 +305,13 @@
 
     <section class="about-text">
 
-        <h3 id="paper3" class="h3 service-title" nav-target="paper3">Do visual language maps capture latent semantics?</h3>
+        <h3 id="paper3" class="h3 service-title">Do visual language maps capture latent semantics?</h3>
 
         Download the paper: <a href="https://arxiv.org/abs/2403.10117" style="display: inline !important;">arXiv</a>
+        <br />
+        Submitted to IROS 2024.
 
-        <img src="./assets/images/qualitative-red-gt-small.png" width="100%">
+        <img class="pubimg" src="./assets/images/qualitative-red-gt-small.png" width="100%">
 
         <p style="text-align: justify;">
             Visual-language models (VLMs) have recently been introduced in robotic mapping by using the
@@ -326,11 +332,13 @@
             both encoders, and LSeg outperforms OpenSeg with both methods.
         </p>
 
-        <h3 id="paper2" class="h3 service-title" nav-target="paper2">Object-oriented grid mapping in dynamic environments</h3>
+        <h3 id="paper2" class="h3 service-title">Object-oriented grid mapping in dynamic environments</h3>
 
         Download the paper: <a href="https://arxiv.org/abs/2309.08324" style="display: inline !important;">arXiv</a>
+        <br />
+        Submitted to MFI 2024.
 
-        <img src="./assets/images/illustration-draft.png" width="100%">
+        <img class="pubimg" src="./assets/images/illustration-draft.png" width="100%">
 
         <p style="text-align: justify;">
             Grid maps, especially occupancy grid maps, are ubiquitous in many mobile robot applications. To
@@ -351,11 +359,13 @@
             proposed method to remove occluded objects from the map in a lifelong map update scenario.
         </p>
 
-        <h3 id="paper1" class="h3 service-title" nav-target="paper1">Localization under consistent assumptions over dynamics</h3>
+        <h3 id="paper1" class="h3 service-title">Localization under consistent assumptions over dynamics</h3>
 
         Download the paper: <a href="https://arxiv.org/abs/2305.16702" style="display: inline !important;">arXiv</a>
+        <br/>
+        Submitted to MFI 2024.
 
-        <img src="./assets/images/header.png" width="100%">
+        <img class="pubimg" src="./assets/images/header.png" width="100%">
 
         <p style="text-align: justify;">
             Accurate maps are a prerequisite for virtually all mobile robot tasks. Most state-of-the-art
@@ -371,6 +381,34 @@
             state-of-the-art baseline solution using real-world data from the Oxford Radar RobotCar data
             set.
         </p>
+
+    </section>
+</article>
+
+   <!-- ██████╗ ██╗      ██████╗  ██████╗
+        ██╔══██╗██║     ██╔═══██╗██╔════╝
+        ██████╔╝██║     ██║   ██║██║  ███╗
+        ██╔══██╗██║     ██║   ██║██║   ██║
+        ██████╔╝███████╗╚██████╔╝╚██████╔╝
+        ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝
+                                        -->
+<article class="blog" data-page="blog">
+
+    <header>
+        <h2 class="h2 article-title">Blog</h2>
+    </header>
+
+    <section class="about-text">
+
+        <h3 id="paper3" class="h3 service-title" id="icra2024">ICRA 2024
+        </h3>
+
+        <img src="./assets/images/ICRA_2024.jpg" class="blogimg" alt="ICRA2024" loading="lazy">
+
+        <p style="text-align: justify;">
+            I'm presenting my work at <a href="https://construction-robots.github.io/">3rd Workshop on Future of Construction: Lifelong Learning Robots in Changing Construction Sites</a> on Monday 13.5. and at <a href="https://vlmnm-workshop.github.io/">Vision-Language Models for Navigation and Manipulation (VLMNM)</a> on Friday 17.5.. See you there!
+        </p>
+
 
     </section>
 </article>
