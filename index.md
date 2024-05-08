@@ -2,7 +2,7 @@
 layout: default
 ---
 
-something else here
+[More about me.](/about.md)
 
 # Do visual language maps capture latent semantics?
 
