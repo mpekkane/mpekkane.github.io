@@ -17,8 +17,6 @@ Visual-language models (VLMs) have recently been introduced in robotic mapping b
 
 Download the paper: [arXiv](https://arxiv.org/abs/2309.08324)
 
-<img src="images/illustration-draft.png" alt="paper2 img" class="center">
-
 ![img-paper2](images/illustration-draft.png)
 
 Grid maps, especially occupancy grid maps, are ubiquitous in many mobile robot applications. To simplify the process of learning the map, grid maps subdivide the world into a grid of cells whose occupancies are independently estimated using only measurements in the perceptual field of the particular cell. However, the world consists of objects that span multiple cells, which means that measurements falling onto a cell provide evidence of the occupancy of other cells belonging to the same object. Current models do not capture this correlation and, therefore, do not use all available data for estimating the state of the environment.
