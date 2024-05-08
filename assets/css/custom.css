@@ -1,6 +1,7 @@
 a {
     display: inline !important;
-    color: aqua;
+    color: #56CBF9;
+    font-weight: bold;
 }
 
 .blogimg {
@@ -14,3 +15,31 @@ a {
     padding-bottom: 20px;
     width: 100%;
 }
+
+.info-content .interests {
+    color: var(--white-1);
+    /* background: var(--onyx); */
+    font-size: var(--fs-8);
+    font-weight: var(--fw-300);
+    width: 100%;
+    padding: 20px 12px;
+    /* border-radius: 8px; */
+}
+
+.abstract {
+    text-align: justify;
+}
+
+b {
+    color:#fec361;
+    font-weight: bold;
+}
+
+/*
+colors
+FEC361 yellow
+EE7674 red
+3DDC97 green
+01BAEF blue
+56CBF9 blue2
+*/
