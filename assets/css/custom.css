@@ -16,7 +16,7 @@ a {
     width: 100%;
 }
 
-.info-content .interests {
+.interests {
     color: var(--white-1);
     /* background: var(--onyx); */
     font-size: var(--fs-8);
