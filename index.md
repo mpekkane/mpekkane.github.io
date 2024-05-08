@@ -6,7 +6,7 @@ layout: default
 
 # Do visual language maps capture latent semantics?
 
-<div style="text-align:center;">
+<div style="position: absolute;top: 50%;">
     Download the paper:
     <a href="https://arxiv.org/abs/2403.10117">
     <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
