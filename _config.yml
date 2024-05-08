@@ -1,7 +1,9 @@
-title: [Matti Pekkanen]
-#remote_theme: pages-themes/cayman@v0.2.0
+title: Matti Pekkanen
+description: PhD candidate at Aalto University. Research focus on mobile robotic mapping in dynamic environments and visual-language maps.
 remote_theme: pages-themes/leap-day@v0.2.0
+show_downloads: false
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-description: [PhD student at Aalto University. Research focus on mobile robotic mapping in dynamic environments and visual-language maps.]
-show_downloads: false
+
+
+#remote_theme: pages-themes/cayman@v0.2.0
