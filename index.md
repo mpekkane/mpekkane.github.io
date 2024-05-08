@@ -19,12 +19,8 @@ Visual-language models (VLMs) have recently been introduced in robotic mapping b
 
 # Object-oriented grid mapping in dynamic environments
 
-<div style="text-align:center;">
-    Download the paper:
-    <a href="https://arxiv.org/abs/2309.08324">
-    <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
-    </a>
-</div>
+
+Download the paper: [arXiv](https://arxiv.org/abs/2309.08324)
 
 <img src="images/illustration-draft.png" alt="paper2 img" class="center">
 
@@ -36,12 +32,7 @@ We propose a method to estimate the latent variables by clustering based on sema
 
 # Localization under consistent assumptions over dynamics
 
-<div style="text-align:center;">
-    Download the paper:
-    <a href="https://arxiv.org/abs/2305.16702">
-    <img src="images/arxiv-logo.png" alt="arxiv logo" style="width:50px;">
-    </a>
-</div>
+Download the paper: [arXiv](https://arxiv.org/abs/2305.16702)
 
 ![img-paper1](images/header.png)
 
