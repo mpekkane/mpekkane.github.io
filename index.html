@@ -218,6 +218,52 @@
 
         <section class="blog-posts">
             <ul class="blog-posts-list">
+
+                <li class="blog-post-item" blog-nav-link nav-target="blog">
+                    <a href="#iros25">
+                        <figure class="blog-banner-box">
+                            <img src="./assets/images-blog/iros2025.png" alt="IROS2025" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <p class="blog-category">Conferences</p>
+                                <span class="dot"></span>
+                                <time datetime="2025-10-16">Oct 16, 2025</time>
+                            </div>
+
+                            <h3 class="h3 blog-item-title">IROS 2025</h3>
+
+                            <p class="blog-text">
+                                I'm going to IROS, see you there!
+                            </p>
+                        </div>
+                    </a>
+                </li>
+
+
+                <li class="blog-post-item" blog-nav-link nav-target="publications">
+                    <a href="#paper4">
+                        <figure class="blog-banner-box">
+                            <img src="./assets/images-blog/quash.png" alt="paper4" loading="lazy">
+                        </figure>
+
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <p class="blog-category">Publications</p>
+                                <span class="dot"></span>
+                                <time datetime="2025-09-15">Sep 15, 2025</time>
+                            </div>
+
+                            <h3 class="h3 blog-item-title">QuASH: Using Natural-Language Heuristics to Query Visual-Language Robotic Maps</h3>
+
+                            <p class="blog-text">
+                                New paper that proposes a novel method to query latent-semantic maps.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+
                 <li class="blog-post-item" blog-nav-link nav-target="publications">
                     <a href="#paper3">
                         <figure class="blog-banner-box">
@@ -352,11 +398,40 @@
 
     <section class="about-text">
 
+
+
+        <h3 id="paper4" class="h3 service-title">QuASH: Using Natural-Language Heuristics to Query Visual-Language Robotic Maps</h3>
+
+        <!-- Download the paper: <a href="TODO" style="display: inline !important;">arXiv</a> -->
+        <br />
+        Submitted to ICRA 2026.
+
+        <p class="abstract">
+            Embeddings from Visual-Language Models are increasingly utilized to represent semantics in robotic maps, offering an
+            open-vocabulary scene understanding that surpasses traditional, limited labels. Embeddings enable on-demand querying by
+            comparing embedded user text prompts to map embeddings via a similarity metric. The key challenge in performing the task
+            indicated in a query is that the robot must determine the parts of the environment relevant to the query.
+
+            This paper proposes a solution to this challenge. We leverage natural-language synonyms and antonyms associated with the
+            query within the embedding space, applying heuristics to estimate the language space relevant to the query, and use that
+            to train a classifier to partition the environment into matches and non-matches.
+            We evaluate our method through extensive experiments, querying both maps and standard image benchmarks. The results
+            demonstrate increased queryability of maps and images. Our querying technique is agnostic to the representation and
+            encoder used, and requires limited training.
+        </p>
+        <img class="pubimg" src="./assets/images-blog/quash.png" loading="lazy">
+
+
+
+        <div class="separator"></div>
+
+
+
         <h3 id="paper3" class="h3 service-title">Do visual language grid maps capture latent semantics?</h3>
 
-        Download the paper: <a href="https://arxiv.org/abs/2403.10117" style="display: inline !important;">arXiv</a>
+        <a href="https://aalto-intelligent-robotics.github.io/latent_semantics/" style="display: inline !important;">Paper website</a>
         <br />
-        Submitted to IROS 2025.
+        IROS 2025.
 
         <p class="abstract">
             Visual-language models (VLMs) have recently been introduced in robotic mapping using the latent representations, i.e.,
@@ -454,6 +529,24 @@
     <header>
         <h2 class="h2 article-title">Blog</h2>
     </header>
+
+    <section class="about-text">
+        <h3 id="mfi24" class="h3 service-title">IROS 2025
+        </h3>
+
+        <img src="./assets/images-blog/iros2025.png" class="blogimg" alt="iros25" loading="lazy">
+
+        <p class="abstract">
+            <b>Tuesday 21.10.</b><br/>
+            I'm presenting my paper <a href="#paper4" blog-nav-link nav-target="publications">QuASH: Using Natural-Language Heuristics to Query Visual-Language Robotic Maps</a>
+            at the
+            <a href="https://iros25.org/">2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</a>
+            <br/>at <b>15:00</b> in the Session: <b>Semantic Scene Understanding: Visual Learning</b>.
+            <br />
+            <br />
+            See you there!
+        </p>
+    </section>
 
     <section class="about-text">
         <h3 id="mfi24" class="h3 service-title">MFI 2024
