@@ -60,8 +60,8 @@
                     <h1 class="name" title="Matti Pekkanen">Matti Pekkanen</h1>
 
                     <p class="title">
-                        PhD candidate at Aalto University<br/>
-                        <a href="https://irobotics.aalto.fi">Intelligent robotics group</a>
+                        PhD candidate · Aalto University<br/>
+                        <a href="https://irobotics.aalto.fi">Intelligent Robotics Group</a>
                     </p>
                 </div>
 
@@ -78,23 +78,23 @@
                 <div class="separator"></div>
 
                 <p class="interests">
-                    <b>Reseach webpages</b> <br />
-                    <a href="https://aalto-intelligent-robotics.github.io/quash/" style="display: inline !important;">QuASH</a><br />
-                    <a href="https://aalto-intelligent-robotics.github.io/latent_semantics/" style="display: inline !important;">Latent
+                    <b>Research webpages</b> <br />
+                    <a href="https://aalto-intelligent-robotics.github.io/quash/" target="_blank" style="display: inline !important;">QuASH</a><br />
+                    <a href="https://aalto-intelligent-robotics.github.io/latent_semantics/" target="_blank" style="display: inline !important;">Latent
                         semantics</a><br />
-                    <a href="https://aalto-intelligent-robotics.github.io/lamide/" style="display: inline !important;">Object oriented
+                    <a href="https://aalto-intelligent-robotics.github.io/lamide/" target="_blank" style="display: inline !important;">Object-oriented
                         mapping</a><br />
                 </p>
-
+                <br/>
                 <p class="interests">
                     <b>Research interests</b> <br />
                     Mobile robotics,
-                    mapping,
+                    semantic mapping,
                     localization,
                     dynamic environments,
                     visual-language maps
                 </p>
-
+                <br />
                 <ul class="contacts-list">
 
                     <li class="contact-item">
@@ -132,28 +132,28 @@
                 <ul class="social-list">
 
                     <li class="social-item">
-                        <a href="https://www.linkedin.com/in/matti-pekkanen/" class="social-link">
+                        <a href="https://www.linkedin.com/in/matti-pekkanen/" target="_blank" class="social-link">
                             <!-- <ion-icon name="logo-linkedin"></ion-icon> -->
                             <img src="./assets/images/linkedin.png" width="30px">
                         </a>
                     </li>
 
                     <li class="social-item">
-                        <a href="https://orcid.org/0000-0003-3391-3730" class="social-link">
+                        <a href="https://orcid.org/0000-0003-3391-3730" target="_blank" class="social-link">
                             <!-- <ion-icon name="logo-twitter"></ion-icon> -->
                             <img src="./assets/images/orcid.png" width="30px">
                         </a>
                     </li>
 
                     <li class="social-item">
-                        <a href="https://scholar.google.com/citations?user=snP-rxsAAAAJ&hl=en" class="social-link">
+                        <a href="https://scholar.google.com/citations?user=snP-rxsAAAAJ&hl=en" target="_blank" class="social-link">
                             <!-- <ion-icon name="logo-google"></ion-icon> -->
                             <img src="./assets/images/google-scholar-inv.png" width="30px">
                         </a>
                     </li>
 
                     <li class="social-item">
-                        <a href="https://www.semanticscholar.org/author/Matti-Pekkanen/80709131" class="social-link">
+                        <a href="https://www.semanticscholar.org/author/Matti-Pekkanen/80709131" target="_blank" class="social-link">
                             <!-- <ion-icon name="logo-twitter"></ion-icon> -->
                             <img src="./assets/images/sem-scholar.png" width="30px">
                         </a>
@@ -195,6 +195,10 @@
                     </li>
 
                     <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>CV</button>
+                    </li>
+
+                    <li class="navbar-item">
                         <button class="navbar-link" data-nav-link>About</button>
                     </li>
 
@@ -219,6 +223,31 @@
     -->
 
     <article class="blog active" data-page="main">
+
+
+
+        <section class="profile-hero" aria-label="Profile summary">
+            <div class="profile-hero-copy">
+                <p class="eyebrow">Robotics · semantic mapping · dynamic environments</p>
+                <h2>Researching how robots can build and query useful maps of changing real-world environments.</h2>
+                <p>I'm a PhD candidate in the Intelligent Robotics Group at Aalto University. My work focuses on mobile robot mapping, localization, and visual-language representations for open-vocabulary scene understanding.</p>
+                <div class="hero-actions">
+                    <a class="hero-button primary" href="#paper4" blog-nav-link nav-target="publications">Latest paper</a>
+                    <a class="hero-button" href="#cv" blog-nav-link nav-target="cv">CV</a>
+                    <a class="hero-button" href="https://scholar.google.com/citations?user=snP-rxsAAAAJ&hl=en">Google Scholar</a>
+                    <a class="hero-button" href="mailto:matti.pekkanen@aalto.fi">Email</a>
+                </div>
+            </div>
+            <div class="profile-hero-card">
+                <span class="card-label">Current themes</span>
+                <ul>
+                    <li>Visual-language maps</li>
+                    <li>Open-vocabulary querying</li>
+                    <li>Object-oriented grid mapping</li>
+                    <li>Localization in dynamic environments</li>
+                </ul>
+            </div>
+        </section>
 
         <header>
             <h2 class="h2 article-title">Latest news</h2>
@@ -377,7 +406,7 @@
                             <h3 class="h3 blog-item-title">Object-oriented grid mapping in dynamic environments</h3>
 
                             <p class="blog-text">
-                                New paper that proposes theoretical extension to relax the independece assumption of cells in generic grid maps.
+                                New paper that proposes a theoretical extension to relax the independence assumption of cells in generic grid maps.
                             </p>
                         </div>
                     </a>
@@ -431,10 +460,12 @@
 
 
         <h3 id="paper4" class="h3 service-title">QuASH: Using Natural-Language Heuristics to Query Visual-Language Robotic Maps</h3>
+        <h4>ICRA 2026</h4>
+        <br/>
+        <a class="hero-button primary" href="https://aalto-intelligent-robotics.github.io/quash/" target="_blank" blog-nav-link nav-target="publications">Paper website</a>
 
-        <a href="https://aalto-intelligent-robotics.github.io/quash/" style="display: inline !important;">Paper website</a>
         <br />
-        ICRA 2026.
+
 
         <p class="abstract">
             Embeddings from Visual-Language Models are increasingly utilized to represent semantics in robotic maps, offering an
@@ -458,10 +489,12 @@
 
 
         <h3 id="paper3" class="h3 service-title">Do visual language grid maps capture latent semantics?</h3>
-
-        <a href="https://aalto-intelligent-robotics.github.io/latent_semantics/" style="display: inline !important;">Paper website</a>
+        <h4>IROS 2025</h4>
         <br />
-        IROS 2025.
+        <a class="hero-button primary" href="https://aalto-intelligent-robotics.github.io/latent_semantics/" target="_blank" blog-nav-link
+            nav-target="publications">Paper website</a>
+        <br />
+
 
         <p class="abstract">
             Visual-language models (VLMs) have recently been introduced in robotic mapping using the latent representations, i.e.,
@@ -490,11 +523,11 @@
 
 
         <h3 id="paper2" class="h3 service-title">Object-Oriented Grid Mapping in Dynamic Environments</h3>
-
-        <a href="https://aalto-intelligent-robotics.github.io/lamide/" style="display: inline !important;">Paper
-            website</a>
+        <h4>MFI 2024</h4>
         <br />
-        MFI 2024.
+        <a class="hero-button primary" href="https://aalto-intelligent-robotics.github.io/lamide/" target="_blank" blog-nav-link
+            nav-target="publications">Paper website</a>
+        <br />
 
         <p class="abstract">
             Grid maps, especially occupancy grid maps, are ubiquitous in many mobile robot applications. To
@@ -524,10 +557,11 @@
 
 
         <h3 id="paper1" class="h3 service-title">Localization Under Consistent Assumptions Over Dynamics</h3>
-
-        <a href="https://aalto-intelligent-robotics.github.io/luca-od/" style="display: inline !important;">Paper website</a>
+        <h4>MFI 2024</h4>
+        <br />
+        <a class="hero-button primary" href="https://aalto-intelligent-robotics.github.io/luca-od/" target="_blank" blog-nav-link
+            nav-target="publications">Paper website</a>
         <br/>
-        MFI 2024.
 
         <p class="abstract">
             Accurate maps are a prerequisite for virtually all mobile robot tasks. Most state-of-the-art
@@ -562,7 +596,7 @@
     </header>
 
     <section class="about-text">
-        <h3 id="icra26" class="h3 service-title">IROS 2025
+        <h3 id="icra26" class="h3 service-title">ICRA 2026
         </h3>
 
         <img src="./assets/images-blog/icra2026.png" class="blogimg" alt="icra26" loading="lazy">
@@ -571,7 +605,7 @@
             <b>Tuesday 21.10.</b><br />
             I'm presenting my paper <a href="#paper4" blog-nav-link nav-target="publications">QuASH: Using Natural-Language Heuristics to Query Visual-Language Robotic Maps</a>
             at the
-            <a href="https://2026.ieee-icra.org/">2026 IEEE International Conference on Robotics and Automation (ICRA)</a>
+            <a href="https://2026.ieee-icra.org/" target="_blank">2026 IEEE International Conference on Robotics and Automation (ICRA)</a>
             <br />at afternoon poster session on <b>Wednesday</b>.
             <br />
             <br />
@@ -589,7 +623,7 @@
             <b>Tuesday 21.10.</b><br/>
             I'm presenting my paper <a href="#paper3" blog-nav-link nav-target="publications">Do visual language grid maps capture latent semantics?</a>
             at the
-            <a href="https://iros25.org/">2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</a>
+            <a href="https://iros25.org/" target="_blank">2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</a>
             <br/>at <b>15:00</b> in the Session: <b>Semantic Scene Understanding: Visual Learning</b>.
             <br />
             <br />
@@ -606,7 +640,7 @@
         <p class="abstract">
             I'm presenting my papers <a href="#paper1" blog-nav-link nav-target="publications">Localization Under Consistent Assumptions Over Dynamics</a>
             and <a href="#paper2" blog-nav-link nav-target="publications">Object-Oriented Grid Mapping in Dynamic Environments</a> at the
-            <a href="https://mfi2024.org/">2024 IEEE International Conference on Multisensor Fusion and Integration (MFI 2024)</a>.
+            <a href="https://mfi2024.org/" target="_blank">2024 IEEE International Conference on Multisensor Fusion and Integration (MFI 2024)</a>.
             <br /><br />
             See you there!
         </p>
@@ -620,17 +654,134 @@
 
         <p class="abstract">
             <b>Monday 13.5.</b> <br />
-            I'm presenting my <a href="#paper1" blog-nav-link nav-target="publications">paper</a> at the poster session of <a href="https://construction-robots.github.io/">3rd Workshop on Future of Construction: Lifelong Learning Robots in Changing Construction Sites</a>.
+            I'm presenting my <a href="#paper1" blog-nav-link nav-target="publications">paper</a> at the poster session of <a href="https://construction-robots.github.io/" target="_blank">3rd Workshop on Future of Construction: Lifelong Learning Robots in Changing Construction Sites</a>.
             <br />
             <br />
             <b>Friday 17.5.</b> <br/>
-            I'm presenting my <a href="#paper3" blog-nav-link nav-target="publications">paper</a> at the poster session of <a href="https://vlmnm-workshop.github.io/">Vision-Language Models for Navigation and Manipulation (VLMNM)</a>.
+            I'm presenting my <a href="#paper3" blog-nav-link nav-target="publications">paper</a> at the poster session of <a href="https://vlmnm-workshop.github.io/" target="_blank">Vision-Language Models for Navigation and Manipulation (VLMNM)</a>.
             <br/><br />
             See you there!
         </p>
     </section>
 
 </article>
+
+
+
+    <!-- CV -->
+
+            <article class="cv" data-page="cv">
+
+                <header>
+                    <h2 id="cv" class="h2 article-title">Curriculum vitae</h2>
+                </header>
+
+                <section class="cv-hero">
+                    <div>
+                        <p class="eyebrow">Academic CV · updated 21.05.2026</p>
+                        <h3>Robotics researcher working on semantic-dynamic scene understanding for mobile robot mapping, localization, and querying.</h3>
+                        <p>The HTML version below mirrors the uploaded academic CV, with the PDF available for download.</p>
+                    </div>
+                    <div class="cv-actions">
+                        <a class="hero-button primary" href="./assets/docs/matti-pekkanen-cv.pdf" download>Download PDF</a>
+                        <a class="hero-button" href="mailto:matti.pekkanen@aalto.fi">Email</a>
+                    </div>
+                </section>
+
+                <section class="cv-section">
+                    <h3 class="h3 service-title">Education</h3>
+                    <div class="cv-timeline">
+                        <div class="cv-item">
+                            <div class="cv-date">D.Sc. (Tech.)</div>
+                            <div>
+                                <h4>Aalto University School of Electrical Engineering · Expected 2026</h4>
+                                <p>Intelligent Robotics Group. Supervisor: Prof. Ville Kyrki.</p>
+                                <p><strong>Thesis:</strong> Semantic-dynamic scene understanding for localization, mapping, and querying in robotic grid maps.</p>
+                            </div>
+                        </div>
+                        <div class="cv-item">
+                            <div class="cv-date">M.Sc. (Tech.)</div>
+                            <div>
+                                <h4>Aalto University School of Electrical Engineering · 2018</h4>
+                                <p>Major: Control, robotics, and autonomous systems. Minor: Computer science.</p>
+                                <p><strong>Thesis:</strong> Motion-based extrinsic parameter calibration of a robot’s multisensor system.</p>
+                            </div>
+                        </div>
+                        <div class="cv-item">
+                            <div class="cv-date">B.Sc. (Tech.)</div>
+                            <div>
+                                <h4>Aalto University School of Electrical Engineering · 2016</h4>
+                                <p>Major: Automation and systems technology. Minor: Software engineering.</p>
+                                <p><strong>Thesis:</strong> Semantic mapping in robotics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cv-section">
+                    <h3 class="h3 service-title">Work experience</h3>
+                    <div class="cv-grid">
+                        <a class="cv-card cv-card-link" target="_blank" href="https://www.aalto.fi/">
+                            <span>Aalto University · Espoo, Finland</span>
+                            <h4>Doctoral candidate</h4>
+                            <p>April 2022 - present</p>
+                        </a>
+                        <a class="cv-card cv-card-link" target="_blank" href="https://www.gimrobotics.fi/">
+                            <span>GIM Robotics · Espoo, Finland</span>
+                            <h4>Lead robotics engineer / line manager / project manager</h4>
+                            <p>May 2017 - April 2022</p>
+                        </a>
+                        <div class="cv-card">
+                            <span>Polea Oy · Espoo, Finland</span>
+                            <h4>Lead developer</h4>
+                            <p>June 2013 - May 2017</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cv-section">
+                    <h3 class="h3 service-title">Publications</h3>
+                    <ol class="cv-publications">
+                        <li><strong>QuASH: Using Natural-Language Heuristics to Query Visual-Language Robotic Maps.</strong> Matti Pekkanen, Francesco Verdoja, Ville Kyrki. IEEE International Conference on Robotics and Automation (ICRA), 2026.</li>
+                        <li><strong>Do Visual-Language Maps Capture Latent Semantics?</strong> Matti Pekkanen, Tsvetomila Mihaylova, Francesco Verdoja, Ville Kyrki. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.</li>
+                        <li><strong>Object-Oriented Mapping in Dynamic Environments.</strong> Matti Pekkanen, Francesco Verdoja, Ville Kyrki. IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), 2024.</li>
+                        <li><strong>Localization Under Consistent Assumptions Over Dynamics.</strong> Matti Pekkanen, Francesco Verdoja, Ville Kyrki. IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), 2024.</li>
+                    </ol>
+
+                    <h4 class="cv-subheading">Workshop papers</h4>
+                    <ol class="cv-publications compact">
+                        <li><strong>Modeling Movable Objects Improves Localization in Dynamic Environments.</strong> ICRA 2024 Workshop on Future of Construction: Lifelong Learning Robots in Changing Construction Sites.</li>
+                        <li><strong>Evaluating the Quality of Robotic Visual-Language Maps.</strong> ICRA 2024 Workshop on Vision-Language Models for Navigation and Manipulation.</li>
+                    </ol>
+                </section>
+
+                <section class="cv-section">
+                    <h3 class="h3 service-title">Grants, supervision, teaching, and service</h3>
+                    <div class="cv-grid two">
+                        <div class="cv-card">
+                            <span>Grant</span>
+                            <h4>Lamarr Institute stipend · 2024</h4>
+                            <p>Research visit at the Rheinische Friedrich-Wilhelms-Universität Bonn by the Lamarr Institute for Machine Learning and Artificial Intelligence.</p>
+                        </div>
+                        <div class="cv-card">
+                            <span>Supervision</span>
+                            <h4>Thesis supervision</h4>
+                            <p>Master's thesis supervision on SLAM in 2018 and bachelor's thesis supervision in 2024-2026 on scan registration, visual-language maps, LLMs in mobile robotics, scene graphs, and object search.</p>
+                        </div>
+                        <div class="cv-card">
+                            <span>Teaching</span>
+                            <h4>Teaching assistant</h4>
+                            <p>Digital and optimal control. State-space methods and discrete-time control.</p>
+                        </div>
+                        <div class="cv-card">
+                            <span>Service</span>
+                            <h4>Reviewer</h4>
+                            <p>RA-L, ICRA, IROS</p>
+                        </div>
+                    </div>
+                </section>
+
+            </article>
 
     <!-- █████╗ ██████╗  ██████╗ ██╗   ██╗████████╗
         ██╔══██╗██╔══██╗██╔═══██╗██║   ██║╚══██╔══╝
